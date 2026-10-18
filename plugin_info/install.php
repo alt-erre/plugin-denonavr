@@ -1,0 +1,35 @@
+<?php
+
+/* This file is part of Jeedom.
+ *
+ * Jeedom is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Jeedom is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
+
+/**
+ * Fonction appelée automatiquement par Jeedom lors de la mise à jour du plugin.
+ * Resauvegarde chaque équipement Denon pour créer ou mettre à jour ses commandes.
+ */
+function denonavr_update() {
+	foreach (denonavr::byType('denonavr') as $denonavr) {
+		try {
+			$denonavr->save();
+		} catch (Exception $e) {
+
+		}
+	}
+}
+
+?>
