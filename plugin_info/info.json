@@ -14,7 +14,7 @@
         "tr": "Plugin permettant de piloter les amplificateurs Denon"
     },
     "licence": "AGPL",
-    "author": "Loïc, Aurélien Leovant (alt-erre)",
+    "author": "Loïc, Aurélien Léovant (alt-erre)",
     "require": "3.0",
     "category": "multimedia",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/changelog",

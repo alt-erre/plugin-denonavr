@@ -25,5 +25,5 @@ Plugin Jeedom permettant de piloter et de superviser les amplificateurs Home-Cin
 ## Crédits et Licence
 
 - **Auteur original** : **Loïc** (Jeedom SAS)
-- **Support HEOS (AVC-X8500H/HA), multi-zones, sources dynamiques et documentation** : **Aurélien Leovant** ([alt-erre](https://github.com/alt-erre))
+- **Support HEOS (AVC-X8500H/HA), multi-zones, sources dynamiques et documentation** : **Aurélien Léovant** ([alt-erre](https://github.com/alt-erre))
 - **Licence** : Distribué sous licence **AGPL** (voir [`LICENSE`](LICENSE) et [`plugin_info/info.json`](plugin_info/info.json)).

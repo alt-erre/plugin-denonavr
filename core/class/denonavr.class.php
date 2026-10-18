@@ -23,7 +23,7 @@ require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
  * Classe principale du plugin Denon AVR pour Jeedom.
  *
  * @author Loïc (auteur original)
- * @author Aurélien Leovant (alt-erre) — Support complet de l'API HEOS (port 8080 / AppCommand.xml), multi-zones et sources dynamiques
+ * @author Aurélien Léovant (alt-erre) — Support complet de l'API HEOS (port 8080 / AppCommand.xml), multi-zones et sources dynamiques
  */
 class denonavr extends eqLogic {
 	/*     * *************************Attributs****************************** */
